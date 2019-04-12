@@ -4,7 +4,8 @@ export default [
     // Item description
     description: {
       en: 'Almost lightweight. You can probably find something better around.',
-      ru: 'Легкий лук. Возможно, вы можете найти что-то лучшее вокруг.'
+      ru: 'Легкий лук. Возможно, вы можете найти что-то лучшее вокруг.',
+      de: 'Sehr Leicht. Du kannst wahrscheinlich etwas besseres finden.'
     }
   },
 
@@ -12,7 +13,8 @@ export default [
     name       : { en: 'Novice Shortbow' },
     description: {
       en: 'You feel less skilled just by holding this in your hands.',
-      ru: 'Вы чувствуете себя менее опытным, просто держа его в своих руках'
+      ru: 'Вы чувствуете себя менее опытным, просто держа его в своих руках',
+      de: 'Du fühlst dich weniger erfarhen nur schon wenn du es in deiner Händen haltest.'
     }
   },
 
@@ -20,7 +22,8 @@ export default [
     name       : { en: 'Adventurer\'s Shortbow' },
     description: {
       en: 'Whoever left this on the ground probably didn\'t meet a nice end.',
-      ru: 'Кто то оставил его на земле, вероятно, не встретил хороший конец'
+      ru: 'Кто то оставил его на земле, вероятно, не встретил хороший конец',
+      de: 'Wer das am Boden gelassen hat, hat wahrscheinlich kein schönes Ende gefunden'
     }
   },
 
@@ -28,7 +31,8 @@ export default [
     name       : { en: 'Long Bow' },
     description: {
       en: 'A more advanced weapon. Quite nice to look at.',
-      ru: 'Более продвинутое оружие. Довольно приятно смотреть на эго.'
+      ru: 'Более продвинутое оружие. Довольно приятно смотреть на эго.',
+      de: 'Eine fortgeschrittenere Waffe. Sehr schön anzusehen'
     }
   },
 
@@ -36,7 +40,8 @@ export default [
     name       : { en: 'Bone Bow' },
     description: {
       en: 'Put together with the bones of... somebody?',
-      ru: 'Cобран из костей ... кого-нибудь?'
+      ru: 'Cобран из костей ... кого-нибудь?',
+      de: 'Gemacht mit Knochen von ... jemandem?'
     }
   },
 
@@ -44,7 +49,8 @@ export default [
     name       : { en: 'Elven Bow' },
     description: {
       en: 'An expert bow of a forgotten race.',
-      ru: 'Экспертный лук забытой расы'
+      ru: 'Экспертный лук забытой расы',
+      de: 'Ein experter Bogen von einer vergessenen Rasse.'
     }
   },
 
