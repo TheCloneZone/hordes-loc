@@ -14,7 +14,8 @@ export default {
     hi: 'धनुरधारी',
     it: 'Arciere',
     ht: 'Archer',
-    pl: 'Łucznik'
+    pl: 'Łucznik',
+    zh: '弓箭手'
   },
   // Class description, visible during character creation
   description: {
@@ -31,6 +32,7 @@ export default {
     hi: 'धनुराशि उच्च एकल लक्ष्य क्षति और प्रभाव क्षति के त्वरित क्षेत्र से निपटते हैं। एक अच्छा तीरंदाज हमेशा अपनी दूरी बनाए रखेगा और दुश्मनों को दूर से ही मार देगा।',
     it: 'Gli arcieri infliggono danni da bersaglio singolo e danno da area di effetto. Un buon arciere manterrà sempre le distanze e tirerà i nemici da lontano.',
     ht: 'Banza kontra segondè sib domaj segondè ak pete Zòn domaj nan efè. Yon bon Archer ap toujou kenbe distans yo ak kritike lènmi soti byen lwen.',
-    pl: 'Łucznicy zadają wysokie obrażenia pojedynczego celu i zadają duże obrażenia obszarowe. Dobry łucznik zawsze będzie trzymał dystans i ostrzeliwuje wrogów z daleka.'
+    pl: 'Łucznicy zadają wysokie obrażenia pojedynczego celu i zadają duże obrażenia obszarowe. Dobry łucznik zawsze będzie trzymał dystans i ostrzeliwuje wrogów z daleka.',
+    zh: '弓箭手造成高单一目标伤害和爆发效果区域伤害. 一个厉害的弓箭手将始终保持距离，并远距离狙击敌人.'
   }
 }
