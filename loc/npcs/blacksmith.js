@@ -20,7 +20,8 @@ export default {
       de: 'Ein Upgrade ist riskant ohne zusätzliche Spezialgegenstände wie den Blacksmith\'s Blessed Hammer, der verhindern kann, dass Gegenstände während des Upgrades brechen. Ohne den Hammer gehen wir ein Risiko ein. Was kann ich also heute für dich upgraden?',
       pt: 'A atualização é arriscada sem itens especiais adicionais como a Blacksmith\'s Blessed Hammer, que pode impedir que os itens quebrem durante as atualizações. Sem o martelo, estaremos correndo um risco. Então, o que posso melhorar para você hoje?',
       it: 'L\'aggiornamento è rischioso senza ulteriori oggetti speciali come un Blacksmith\'s Blessed Hammer, che può impedire la rottura degli oggetti durante gli aggiornamenti. Senza il martello, correremo un rischio. Quindi, cosa posso aggiornare per voi oggi?',
-      ro: 'Forjarea este riscantă fără alte elemente speciale, cum ar fi ciocanul binecuvântat al unui fierar, care poate împiedica spargerea unor obiecte în timpul actualizării lor. Fără ciocan, ne vom asuma un risc. Deci, ce pot forja pentru tine azi?'
+      ro: 'Forjarea este riscantă fără alte elemente speciale, cum ar fi ciocanul binecuvântat al unui fierar, care poate împiedica spargerea unor obiecte în timpul actualizării lor. Fără ciocan, ne vom asuma un risc. Deci, ce pot forja pentru tine azi?',
+      zh: '沒有用額外的特殊物品如鐵匠的Blessed Hammer，升級是有風險的。鐵匠的Blessed Hammer可以防止物品在升級過程中破裂。 沒有用錘子，我們將承擔風險。 那麼今天我可以為您升級什麼？'
     },
 
     choices: [{
