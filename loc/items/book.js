@@ -11,14 +11,14 @@ export default [{
   name: {$$: 'Slash'},
 
   description: {
-    en: 'Slash your enemy, striking with extra force.'
+    en: 'Slash your enemy, striking with extra force. Heals you for 10% of the damage done.'
   }
 },
 {
   name: {$$: 'Bulwark'},
 
   description: {
-    en: 'Increase your block chance temporarily, while raising your damage for each successful block.' // descriptions are coming from the buffs
+    en: 'Increase your block chance, while raising your damage for each successful block.' // descriptions are coming from the buffs
   }
 },
 {
@@ -32,7 +32,7 @@ export default [{
   name: {$$: 'Ice bolt'},
 
   description: {
-    en: 'Fires a missile of frost towards your enemy. Reduces the cooldown of Icicle upon hitting critically by 2 seconds.'
+    en: 'Fires a missile of frost towards your enemy. Reduces the cooldown of Icicle Orb by 0.5 seconds. Freezes targets for up to 4 stacks, at which they will be stunned and take 50% increased damage.'
   }
 },
 {
@@ -67,7 +67,7 @@ export default [{
   name: {$$: 'Precise Shot'},
 
   description: {
-    en: 'A carefully aimed, high damage shot.'
+    en: 'A carefully aimed, high damage shot. Increases the damage of your next Swift Shots and allows them to be cast instantly.'
   }
 },
 {
@@ -81,7 +81,7 @@ export default [{
   name: {$$: 'Invigorate'},
 
   description: {
-    en: 'You temporarily gain Haste and your Precise Shots regenerate mana on hit.'
+    en: 'Instantly recovers MP and increases your damage temporarily.'
   }
 },
 {
@@ -116,7 +116,7 @@ export default [{
   name: {$$: 'Hypothermic Frenzy'},
 
   description: {
-    en: 'You temporarily gain Haste and all your damage output is increased.'
+    en: 'You gain Haste and all your damage output is increased. Resets the cooldown of Icicle Orb.'
   }
 },
 {
@@ -137,14 +137,14 @@ export default [{
   name: {$$: 'Unholy Warcry'},
 
   description: {
-    en: 'You and your party members deal additional Damage temporarily.'
+    en: 'You and your party members deal additional Damage.'
   }
 },
 {
   name: {$$: 'Crusader\'s Courage'},
 
   description: {
-    en: 'You and your party members gain additional Defense temporarily.'
+    en: 'You and your party members gain additional Defense.'
   }
 },
 {
@@ -158,28 +158,28 @@ export default [{
   name: {$$: 'Arctic Aura'},
 
   description: {
-    en: 'You and your party members gain additional Crit% temporarily.'
+    en: 'You and your party members gain additional Crit%.'
   }
 },
 {
-  name: {$$: 'Arcane Concentration'},
+  name: {$$: 'Ice Shield'},
 
   description: {
-    en: 'Passively increase your Haste.'
+    en: 'Protects you against the next incoming attacks.'
   }
 },
 {
   name: {$$: 'Enchantment'},
 
   description: {
-    en: 'Increase your targets Damage temporarily.'
+    en: 'Increase your targets Damage.'
   }
 },
 {
   name: {$$: 'Temporal Dilation'},
 
   description: {
-    en: 'You and your party members gain additional Haste temporarily.'
+    en: 'You and your party members gain additional Haste.'
   }
 },
 {
@@ -193,14 +193,91 @@ export default [{
   name: {$$: 'Pathfinding'},
 
   description: {
-    en: 'You and your party members gain additional Movement Speed temporarily.'
+    en: 'You and your party members gain additional Movement Speed.'
   }
 },
 {
   name: {$$: 'Canine Howl'},
 
   description: {
-    en: 'Increase your targets Haste temporarily.'
+    en: 'You and your entire party enrages with haste, causing you to attack faster.'
+  }
+},
+{
+  name: {$$: 'Poison Arrows'},
+
+  description: {
+    en: 'Your Precise Shot applies a poisonous Debuff on hit, damaging and slowing your enemies.'
+  }
+},
+{
+  name: {$$: 'Healing Totem'},
+
+  description: {
+    en: 'Place a totem on the ground healing your entire party.'
+  }
+},
+{
+  name: {$$: 'Swift Shot'},
+
+  description: {
+    en: 'Fire a Swift Shot which can be enhanced by casting a Precise Shot prior to it.'
+  }
+},
+{
+  name: {$$: 'Teleport'},
+
+  description: {
+    en: 'Instantly teleport into the direction you are facing.'
+  }
+},
+{
+  name: {$$: 'Charge'},
+
+  description: {
+    en: 'Charge towards your target while also stunning it. Stun duration increases with charge distance.'
+  }
+},
+{
+  name: {$$: 'Taunt'},
+
+  description: {
+    en: 'Taunt surrounding enemies, forcing them to target and move towards you for a brief moment. Interrupts spell casts and resets aggro for all monsters.'
+  }
+},
+{
+  name: {$$: 'Summon'},
+
+  description: {
+    en: 'Summon your party members, allowing them to instantly teleport towards you.'
+  }
+},
+{
+  name: {$$: 'Spirit Animal'},
+
+  description: {
+    en: 'Turn into your spirit animal for additional movementspeed, removing all movement impairing effects active at the point of the transformation. All spellcasting will cancel this effect.'
+  }
+},
+{
+  name: {$$: 'Agonize'},
+
+  description: {
+    en: 'Turns your target into a zombie, interrupting all spellcasting and slowing movement for the duration.'
+  }
+},
+{
+  name: {$$: 'Dash'},
+
+  description: {
+    en: 'You dash into your current direction, instantly resetting the cooldown of Precise Shot. Your next Precise Shot is an instant cast.'
+  }
+},
+{
+  name: {$$: 'Mount Riding'},
+
+  description: {
+    en: 'Allows you to ride ground mounts.'
   }
 }
 ]

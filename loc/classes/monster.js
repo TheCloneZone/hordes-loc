@@ -21,6 +21,7 @@ export default {
     bg: 'Чудовище',
     ro: 'Monstru',
     da: 'Uhyre',
-    zh: '妖怪'
+    zh: '怪物',
+    hu: 'Szörnyeteg'
   }
 }
