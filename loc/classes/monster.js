@@ -2,8 +2,8 @@ export default {
   name: {
     en: 'Monster',
     de: 'Monster',
-    sv: 'Monster',
     ru: 'Монстр',
+    bg: 'Чудовище',
     es: 'Monstruo',
     fr: 'Monstre',
     hi: 'राक्षस',
@@ -11,17 +11,11 @@ export default {
     pt: 'Monstro',
     tr: 'Canavar',
     nl: 'Monster',
-    it: 'Mostro',
-    ht: 'Mons',
-    pl: 'Potwór',
-    cs: 'Netvor',
-    tl: 'Halimaw',
-    ja: 'モンスター',
-    el: 'Τέρας',
-    bg: 'Чудовище',
     ro: 'Monstru',
-    da: 'Uhyre',
     zh: '怪物',
-    hu: 'Szörnyeteg'
+    hu: 'Szörnyeteg',
+    pl: 'Potwór',
+    bn: 'দানব',
+    vi: 'Quái vật'
   }
 }

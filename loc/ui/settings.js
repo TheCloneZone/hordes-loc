@@ -10,20 +10,12 @@ export default {
     nl: 'Instellingen',
     tr: 'Ayarlar',
     pt: 'Configurações',
-    pl: 'Nastawy',
-    ht: 'Ajisteman',
-    it: 'Impostazioni',
     ko: '설정',
-    cs: 'Nastavení',
-    ja: '設定',
-    sv: 'Inställningar',
-    bg: 'Настройки',
-    el: 'Ρυθμίσεις',
-    tl: 'Mga setting',
     ro: 'Setări',
-    da: 'Indstillinger',
     zh: '设置',
-    hu: 'Beállítások'
+    hu: 'Beállítások',
+    pl: 'Ustawienia',
+    vi: 'Cài đặt'
   },
 
   // ---- Controls
@@ -32,45 +24,84 @@ export default {
     ru: 'Управление',
     hi: 'नियंत्रण',
     es: 'Controles',
-    de: 'Kontrollen',
+    de: 'Steuerung',
     fr: 'Contrôles',
     tr: 'Kontroller',
     nl: 'Bediening',
     pt: 'Controlos',
-    pl: 'Sterownica',
-    ht: 'Kontwòl yo',
-    it: 'Regolazione',
     ko: '통제 수단',
-    cs: 'Řízení',
-    ja: 'コントロール',
-    sv: 'Kontroll',
-    bg: 'Контроли',
-    el: 'διακόπτης',
-    tl: 'Mga kontrol',
     ro: 'Controale',
-    da: 'Controls',
     zh: '控制',
-    hu: 'Irányítás'
+    hu: 'Irányítás',
+    pl: 'Sterowanie',
+    vi: 'Điều khiển'
   },
 
   keybindings: {
     en: 'Key bindings',
+    de: 'Tastenbelegung',
     ru: 'Привязки клавиш',
     pt: 'Combinações de teclas',
     fr: 'Assignation des touches',
     nl: 'Knop verbindingen',
     hu: 'Billentyűparancsok',
-    es: 'Atajos de teclado'
+    es: 'Atajos de teclado',
+    zh: '鍵盤設定',
+    pl: 'Ustawienia klawiszy',
+    vi: 'Gán phím'
+  },
+
+  camera: {
+    en: 'Camera',
+    es: 'Cámara',
+    de: 'Kamera',
+    fr: 'Caméra',
+    ru: 'Камера',
+    pl: 'Kamera'
+  },
+
+  mousesensitivity: {
+    en: 'Sensitivity',
+    es: 'Sensibilidad',
+    de: 'Empfindlichkeit',
+    fr: 'Sensibilité',
+    ru: 'Чувствительность',
+    pl: 'Czułość',
+    vi: 'Độ nhạy chuột'
+  },
+
+  invertmousex: {
+    en: 'Invert horizontally',
+    es: 'Invertir horizontalmente',
+    de: 'X-Achse umkehren',
+    fr: 'Inverser horizontalement',
+    ru: 'Инвертировать горизонтально',
+    pl: 'Inwersja pozioma',
+    vi: 'Đảo ngược theo chiều ngang'
+  },
+
+  invertmousey: {
+    en: 'Invert vertically',
+    es: 'Invertir verticalmente',
+    de: 'Y-Achse umkehren',
+    fr: 'Inverser verticalement',
+    ru: 'Инвертировать вертикально',
+    pl: 'Inwersja pionowa',
+    vi: 'Đảo ngược theo chiều dọc'
   },
 
   pointerlock: {
     en: 'Hide mouse during rotation',
-    ru: 'Скрыть мышь во время вращения',
+    de: 'Maus bei Rotation verstecken',
+    ru: 'Скрыть мышь во время вращения камеры',
     pt: 'Ocultar o rato durante a rotação.',
     fr: 'Cacher la souris pendant les rotations',
     nl: 'Verstop rechter muis knop tijdens rotatie',
     hu: 'Egérmutató elrejtése forgáskor',
-    es: 'Ocultar el mouse durante la rotación'
+    es: 'Ocultar el puntero durante la rotación',
+    zh: '旋轉中隱藏滑鼠',
+    pl: 'Schowaj myszkę podczas obrotu',
+    vi: 'Ẩn chuột khi xoay'
   },
 
   lockedcamera: {
@@ -78,25 +109,17 @@ export default {
     ru: 'Заблокированная камера',
     hi: 'कैमरा लॉक',
     es: 'Cámara fija',
-    de: 'Gesperrte Kamera',
+    de: 'Kamera-Sperre',
     fr: 'Caméra verrouillée',
     tr: 'Kilitli kamera',
     nl: 'Gesloten camera',
     pt: 'Câmera bloqueada',
-    pl: 'Zamknięta kamera',
-    ht: 'Kamera fèmen',
-    it: 'Telecamera bloccata',
     ko: '잠긴 카메라',
-    cs: 'Zamknutá kamera',
-    ja: 'ロックカメラ',
-    sv: 'Låst kamera',
-    bg: 'Заключена камера',
-    el: 'Κλειδωμένη κάμερα',
-    tl: 'Naka-lock na camera',
     ro: 'Blochează camera',
-    da: 'Låst kamera',
     zh: '锁定相机',
-    hu: 'Lezárt kamera'
+    hu: 'Lezárt kamera',
+    pl: 'Zablokowana kamera',
+    vi: 'Khóa Camera'
   },
 
   // ---- Graphics
@@ -110,20 +133,12 @@ export default {
     nl: 'Grafischen',
     tr: 'Grafikler',
     pt: 'Gráficos',
-    pl: 'Grafika',
-    ht: 'Grafik',
-    it: 'Grafica',
     ko: '제도법',
-    cs: 'Grafika',
-    ja: 'グラフィックス',
-    sv: 'Grafik',
-    bg: 'Графика',
-    el: 'Γραφικών',
-    tl: 'Grapika',
     ro: 'Grafică',
-    da: 'Grafik',
     zh: '图像',
-    hu: 'Grafika'
+    hu: 'Grafika',
+    pl: 'Grafika',
+    vi: 'Đồ họa'
   },
 
   viewrange: {
@@ -132,24 +147,16 @@ export default {
     de: 'Sichtweite',
     nl: 'Weergavebereik',
     pt: 'Distância de visão',
-    pl: 'Zakres widoków',
-    it: 'Visualizza la gamma',
     ro: 'Câmp vizual',
-    es: 'Ver rango',
-    sv: 'Visa intervall',
-    el: 'Προβολή εύρους',
-    bg: 'Преглед на обхвата',
-    cs: 'Zobrazit rozsah',
+    es: 'Rango de visión',
     hi: 'नज़र सीमा',
-    fr: 'Champ de vision',
+    fr: 'Distance d\'affichage',
     tr: 'Görüş mesafesi',
-    ht: 'Je ranje',
     ko: '범위보기',
-    ja: '表示範囲',
-    tl: 'Tingnan ang saklaw',
-    da: 'Omfang af synet',
     zh: '远景范围',
-    hu: 'Látótávolság'
+    hu: 'Látótávolság',
+    pl: 'Zasięg widzenia',
+    vi: 'Khoảng cách nhìn'
   },
 
   resolution: {
@@ -162,20 +169,12 @@ export default {
     nl: 'Resolutie',
     tr: 'Çözünürlük',
     pt: 'Resolução',
-    pl: 'Rozdzielczość',
-    ht: 'Rezolisyon an',
-    it: 'Delibera',
     ko: '게임의 해상도',
-    cs: 'Rozlišení',
-    ja: '解決',
-    sv: 'Upplösning',
-    bg: 'Резолюция',
-    el: 'Ανάλυση',
-    tl: 'Resolution',
     ro: 'Rezoluție',
-    da: 'Løsning',
     zh: '解析度',
-    hu: 'Felbontás'
+    hu: 'Felbontás',
+    pl: 'Rozdzielczość',
+    vi: 'Độ phân giải'
   },
 
   postprocessing: {
@@ -187,90 +186,109 @@ export default {
     pt: 'Pós-processamento.',
     nl: 'Nawerking',
     hu: 'Elő-tömörítés',
-    es: 'Publicar-procesamiento'
+    es: 'Post-procesamiento',
+    pl: 'Post-processing',
+    vi: 'Hậu xử lý'
   },
 
   skilleffects: {
     en: 'Skill Effects',
-    ru: 'Эффекты Навыков',
+    ru: 'Визуальные эффекты навыков',
     hi: 'स्किल दिखावट',
     es: 'Efectos de Habilidades',
     de: 'Fertigkeitseffekte',
-    fr: 'Effets de Habiletés',
+    fr: 'Effets des Compétences',
     nl: 'Vaardigheidseffecten',
     tr: 'Yetenek Efektleri',
     pt: 'Efeitos de Habilidade',
-    pl: 'Efekty Umiejętności',
-    ht: 'Efè Konpetans',
-    it: 'Effetti di Abilità',
     ko: '기술 효과',
-    cs: 'Dovednostní Efekty',
-    ja: 'スキル効果',
-    sv: 'Färdighetseffekter',
-    bg: 'Ефекти',
-    el: 'Επιπτώσεις δεξιοτήτων',
-    tl: 'Mga epekto sa kasanayan',
     ro: 'Efectele Abilităților',
-    da: 'Færdighedseffekter',
     zh: '技能影响',
-    hu: 'Képesség effektusok'
+    hu: 'Képesség effektusok',
+    pl: 'Efekty umiejętności',
+    vi: 'Hiệu ứng kỹ năng'
   },
 
   shadows: {
     en: 'Shadows',
     ru: 'Тени',
+    de: 'Schatten',
     fr: 'Ombres',
     pt: 'Sombras',
     nl: 'Schaduwen',
-    hu: 'Árnyékok'
+    hu: 'Árnyékok',
+    zh: '影子',
+    es: 'Sombras',
+    pl: 'Cienie',
+    vi: 'Đổ bóng'
   },
 
   ssao: {
     en: 'Ambient Occlusion',
-    ru: 'Окружающая Окклюзия',
+    ru: 'Окружающая окклюзия',
     fr: 'Occlusion Ambiante',
     pt: 'Oclusão Ambiental',
     nl: 'Omgevingsocclusie',
     hu: 'Környezet okklúzió',
-    es: 'Oclusión Ambiental'
+    es: 'Oclusión Ambiental',
+    pl: 'Okluzja otoczenia',
+    de: 'Umgebungsverdeckung', // Very technical, but right term
+    vi: 'Môi trường xung quanh'
   },
 
   grass: {
     en: 'Grass',
+    de: 'Gras',
     ru: 'Трава',
     fr: 'Herbe',
     pt: 'Grama',
     nl: 'Gras',
     hu: 'Fű',
-    es: 'Hierba'
+    es: 'Hierba',
+    zh: '草',
+    pl: 'Trawa',
+    vi: 'Cây cỏ'
   },
 
   clouds: {
     en: 'Clouds',
+    de: 'Wolken',
     ru: 'Облака',
     fr: 'Nuages',
     pt: 'Nuvens',
     nl: 'Wolken',
     hu: 'Felhők',
-    es: 'Nubes'
+    es: 'Nubes',
+    zh: '云',
+    pl: 'Chmury',
+    vi: 'Mây'
   },
 
   particles: {
     en: 'Particles',
+    de: 'Partikel',
     ru: 'Частицы',
     fr: 'Particules',
     pt: 'Partículas',
     nl: 'Deeltjes',
     hu: 'Effekt-részecskék',
-    es: 'Partículas'
+    es: 'Partículas',
+    zh: '粒子',
+    pl: 'Cząsteczki',
+    vi: 'Hạt chi tiết'
   },
 
   detailprops: {
     en: 'Detail props',
-    ru: 'Детальные пропи',
+    de: 'Details',
+    ru: 'Детализация',
     nl: 'Detail Voorwerpen',
     hu: 'Részletes objektumok',
-    es: 'Accesorios de detalle'
+    es: 'Detalles de accesorios',
+    zh: '細節道具',
+    fr: 'Objets détaillés',
+    pl: 'Szczegóły',
+    vi: 'Chi tiết'
   },
 
   // ---- Audio
@@ -280,51 +298,43 @@ export default {
     de: 'Ton',
     nl: 'Geluid',
     pt: 'Áudio',
-    pl: 'Dźwięk',
-    it: 'Audio',
     ro: 'Audio',
     es: 'Audio',
-    sv: 'Ljud',
-    el: 'Ήχος',
-    bg: 'звуков',
-    cs: 'Вук',
     hi: 'आवाज़',
     fr: 'Audio',
     tr: 'Ses',
-    ht: 'Audio',
     ko: '오디오',
-    ja: 'オーディオ',
-    tl: 'Audio',
-    da: 'Lyd',
     zh: '音频',
-    hu: 'Hang'
+    hu: 'Hang',
+    pl: 'Audio',
+    vi: 'Âm thanh'
   },
 
   sfxvolume: {
     en: 'SFX Volume',
-    ru: 'Громкость Эффектов',
-    de: 'SFX Lautstärke',
+    ru: 'Громкость спецэффектов',
+    de: 'Effekt-Lautstärke',
     nl: 'SFX Volume',
     pt: 'Volume de SFX',
-    pl: 'Objętość SFX',
-    it: 'Volume SFX',
     ro: 'Volum SFX',
     es: 'Volumen SFX',
-    sv: 'SFX-volym',
-    el: 'Ενταση SFX',
-    bg: 'гръмкостта SFX',
-    cs: 'Objem SFX',
     hi: 'इफैक्ट्स की आवाज़',
     fr: 'Volume des effets sonores',
     tr: 'SFX Ses Gücü',
-    ht: 'Volim SFX',
     ko: 'SFX 볼륨',
-    ja: 'SFXボリューム',
-    tl: 'Dami ng SFX',
-    da: 'Volumen af SFX',
-    hu: 'SFX-hangerő '
+    hu: 'SFX-hangerő ',
+    pl: 'Poziom dźwięków',
+    vi: 'Âm lượng SFX'
   },
-
+  musicvolume: {
+    en: 'Music Volume',
+    de: 'Musik-Lautstärke',
+    ru: 'Громкость музыки',
+    fr: 'Volume des Musiques',
+    es: 'Volumen de la música',
+    pl: 'Poziom muzyki',
+    vi: 'Âm lượng nhạc'
+  },
   // ---- Chat
   chat: {
     en: 'Chat',
@@ -336,62 +346,58 @@ export default {
     nl: 'Chat',
     tr: 'sohbet',
     pt: 'Chat',
-    pl: 'pogawędka',
-    ht: 'Chat',
-    it: 'Chiacchierata',
     ko: '잡담',
-    cs: 'Chatu',
-    ja: 'チャット',
-    sv: 'Chatt',
-    bg: 'чат',
-    el: 'κουβέντα',
-    tl: 'Chat',
     ro: 'Chat',
-    da: 'Chat',
-    hu: 'Cset'
+    hu: 'Cset',
+    zh: '聊天室',
+    pl: 'Czat',
+    vi: 'Chat'
   },
 
   chatbubbles: {
     en: 'Show chat bubbles',
-    ru: 'Показавать чат пузеры',
+    de: 'Sprechblasen anzeigen',
+    ru: 'Показавать сообщения над игроком',
     fr: 'Afficher les bulles de chat',
     pt: 'Mostrar bolhas de chat',
     nl: 'Laat chat bubbels zien',
-    hu: 'Csetbuborékok mutatása'
+    hu: 'Csetbuborékok mutatása',
+    zh: '顯示聊天氣泡',
+    es: 'Mostrar burbujas de chat',
+    pl: 'Chmurki czatu',
+    vi: 'Hiển thị bong bóng chat'
   },
 
   combatlog: {
     en: 'Combat Log',
-    ru: 'Боевой лог',
+    de: 'Kampf-Log',
+    ru: 'Лог боя',
     nl: 'Gevechts log',
     hu: 'Harci kisnapló',
-    es: 'Registro de combate'
+    es: 'Registro de combate',
+    zh: '戰鬥表',
+    fr: 'Journal de Combat',
+    pl: 'Log Walki',
+    vi: 'Nhật ký combat'
   },
 
   // ---- User interface
   interface: {
     en: 'Interface',
     ru: 'Интерфейс',
-    de: 'Interface',
+    de: 'Oberfläche',
     pt: 'Interface',
-    pl: 'Interfejs',
     nl: 'Interface',
-    it: 'interfaccia',
     ro: 'Interfață',
     es: 'Interfaz',
-    sv: 'Gränssnitt',
-    el: 'Διεπαφή',
-    bg: 'интерфейс',
-    cs: 'Rozhraní',
     hi: 'अन्तराफलक',
     fr: 'Interface',
     tr: 'Arayüzey',
-    ht: 'Entèfas',
     ko: '인터페이스',
-    ja: 'インタフェース',
-    tl: 'Interface',
-    da: 'Grænseflade',
-    hu: 'Felület'
+    hu: 'Felület',
+    zh: '界面',
+    pl: 'Interfejs',
+    vi: 'Giao diện'
   },
 
   language: {
@@ -400,47 +406,56 @@ export default {
     de: 'Sprache',
     nl: 'Taal',
     pt: 'Idioma',
-    pl: 'Język',
-    it: 'Lingua',
     ro: 'Limbă',
     es: 'Idioma',
-    sv: 'Språk',
-    el: 'Γλώσσα',
-    bg: 'език',
-    cs: 'Jazyk',
     hi: 'भाषा',
     fr: 'Langue',
     tr: 'Dil',
-    ht: 'Lang',
     ko: '언어',
-    ja: '言語',
-    tl: 'Wika',
-    da: 'Sprog',
-    hu: 'Nyelv'
+    hu: 'Nyelv',
+    zh: '語言',
+    pl: 'Język',
+    vi: 'Ngôn ngữ'
   },
 
   invwidth: {
     en: 'Inventory width',
     ru: 'Ширина инвентаря',
-    de: 'Inventar Breite',
+    de: 'Inventar-Breite',
     nl: 'Inventarisbreedte',
     pt: 'Largura do inventário',
-    pl: 'Szerokość inwentarza',
-    it: 'Larghezza dell\'inventario',
     ro: 'Lățimea inventarului',
-    es: 'Ancho de inventario',
-    sv: 'Inventariebredd',
-    el: 'Εύρος αποθέματος',
-    bg: 'Ширина инвентаря',
-    cs: 'Šířka inventáře',
+    es: 'Ancho del inventario',
     hi: 'वस्तुसूची की चौड़ाई',
     fr: 'Largeur de l\'inventaire',
-    tl: 'Lapad ng Imbentaryo',
-    da: 'Lagerbredde',
     ko: '인벤토리 너비',
-    ht: 'Lajè Envantè',
-    ja: '在庫の幅',
-    hu: 'Hátizsák szélesség'
+    hu: 'Hátizsák szélesség',
+    pl: 'Szerokość ekwipunku',
+    vi: 'Độ dài hành trang'
+  },
+
+  // Do NOT translate "Stash"
+  stashwidth: {
+    en: 'Stash width',
+    es: 'Ancho del Stash',
+    ru: 'Ширина Stash',
+    fr: 'Largeur de Stash',
+    hu: 'Stash szélesség',
+    de: 'Stash-Breite',
+    pl: 'Szerokość Stash',
+    vi: 'Độ dài Stash'
+  },
+
+  // Do NOT translate "Stash"
+  stashheight: {
+    en: 'Stash height',
+    es: 'Capacidad del stash',
+    ru: 'Высота Stash',
+    fr: 'Hauteur de Stash',
+    hu: 'Stash magasság',
+    de: 'Stash-Höhe',
+    pl: 'Wysokość Stash',
+    vi: 'Độ rộng Stash'
   },
 
   tutorial: {
@@ -453,66 +468,60 @@ export default {
     nl: 'Handleiding',
     tr: 'Öğretici',
     pt: 'Tutorial',
-    pl: 'Przewodnik',
-    ht: 'Leson patikilye',
-    it: 'Tutorial',
     ko: '지도 시간',
-    cs: 'Výuku',
-    ja: 'チュートリアル',
-    sv: 'Handledning',
-    bg: 'Учение',
-    el: 'φροντιστήριο',
-    tl: 'Pagtuturo',
     ro: 'Tutorial',
-    da: 'Tutorial',
-    hu: 'Bemutató'
+    hu: 'Bemutató',
+    zh: '講解',
+    pl: 'Samouczek',
+    vi: 'Hướng dẫn'
   },
 
   resettutorial: {
     en: 'Reset tutorial',
-    ru: 'Начать обучение заново',
+    ru: 'Начать обучение снова',
     hi: 'शिक्षण रीसेट',
-    es: 'Reiniciar tutorial',
+    es: 'Reiniciar el tutorial',
     de: 'Tutorial zurücksetzen',
     fr: 'Réinitialiser le tutoriel',
     nl: 'Reset handleiding',
     tr: 'Öğreticiyi sıfırla',
     pt: 'Recomeçar o tutorial',
-    pl: 'resetowanie samouczka',
-    ht: 'Reset tutorial',
-    it: 'Ripristina tutorial',
     ko: '재설정 자습서',
-    cs: 'Obnovit výuku',
-    ja: 'チュートリアルをリセット',
-    sv: 'Återställ handledningen',
-    bg: 'Нулиране на урока',
-    el: 'επαναφορά φροντιστήριο',
-    tl: 'i-reset ang tutorial',
     ro: 'Resetează tutorialul',
-    da: 'Nulstil tutorial',
-    hu: 'Bemutató újrakezdése'
+    hu: 'Bemutató újrakezdése',
+    zh: '重置講解',
+    pl: 'Zresetuj samouczek',
+    vi: 'Cài đặt lại hướng dẫn'
   },
 
   disabletutorial: {
     en: 'Disable tutorial',
-    ru: 'Отключить обучения',
+    de: 'Tutorial deaktivieren',
+    ru: 'Отключить обучение',
     tr: 'Öğreticiyi kapat',
     fr: 'Désactiver le tutoriel',
     pt: 'Desativar o tutorial',
     nl: 'Handleiding uitschakelen',
     hu: 'Bemutató elrejtése',
-    es: 'Desactivar tutorial'
+    es: 'Deshabilitar el tutorial',
+    zh: '禁用講解',
+    pl: 'Wyłącz samouczek',
+    vi: 'Vô hiệu hóa hướng dẫn'
   },
 
   // ---- map
   maplowqual: {
     en: 'Low quality mode',
+    de: 'Niedrige Qualität',
     ru: 'Режим низкого качества',
     hu: 'Alacsony minőségű mód',
     pt: 'Modo de qualidade baixa',
     fr: 'Mode basse qualité',
     nl: 'Lage kwaliteit modus',
-    es: 'Modo de baja calidad'
+    es: 'Modo de baja calidad',
+    zh: '低畫質模式',
+    pl: 'Niska jakość',
+    vi: 'Chế độ chất lượng thấp'
   },
 
   mapshowmonsters: {
@@ -522,6 +531,10 @@ export default {
     pt: 'Mostrar monstros',
     fr: 'Afficher les monstres',
     nl: 'Laat monsters zien',
-    es: 'Mostrar monstruos'
+    es: 'Mostrar monstruos',
+    zh: '顯示怪物',
+    de: 'Monster sichtbar',
+    pl: 'Widoczność potworów',
+    vi: 'Hiển thị quái vật'
   }
 }

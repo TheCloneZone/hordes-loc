@@ -11,7 +11,7 @@ export default [{
   name: {$$: 'Slash'},
 
   description: {
-    en: 'Slash your enemy, striking with extra force. Heals you for 10% of the damage done.'
+    en: 'Slash your enemy, striking with extra force. Heals you for 5% of the damage done.'
   }
 },
 {
@@ -95,7 +95,7 @@ export default [{
   name: {$$: 'Mimir\'s Well'},
 
   description: {
-    en: 'You and your party members generate extra mana passively.'
+    en: 'You and your party members quickly regenerate mana over a short period of time.'
   }
 },
 {
@@ -130,7 +130,7 @@ export default [{
   name: {$$: 'Centrifugal Laceration'},
 
   description: {
-    en: 'Your Crescent Swipe lacerates enemies, causing them to bleed for additional Damage.'
+    en: 'Your Crescent Swipe lacerates enemies, causing them to bleed for additional Damage. Stacks up to 3 times.'
   }
 },
 {
@@ -235,7 +235,7 @@ export default [{
   name: {$$: 'Charge'},
 
   description: {
-    en: 'Charge towards your target while also stunning it. Stun duration increases with charge distance.'
+    en: 'Charge towards any target while also stunning it (if hostile). Stun duration increases with charge distance.'
   }
 },
 {
@@ -263,7 +263,7 @@ export default [{
   name: {$$: 'Agonize'},
 
   description: {
-    en: 'Turns your target into a zombie, interrupting all spellcasting and slowing movement for the duration.'
+    en: 'Turns your target into a zombie, interrupting all actions, slowing it down, and reducing received healing for the duration.'
   }
 },
 {
@@ -278,6 +278,20 @@ export default [{
 
   description: {
     en: 'Allows you to ride ground mounts.'
+  }
+},
+{
+  name: {$$: 'Conjurer\'s Recall'},
+
+  description: {
+    en: 'Teleport to the nearest Conjurer.'
+  }
+},
+{
+  name: {$$: 'Tempering'},
+
+  description: {
+    en: 'You slow down for 2 seconds. Then, if you are incapacitated: all control impairing effects are removed, your Charge cooldown is reset and you gain 20 Movement Speed for 3 seconds.'
   }
 }
 ]

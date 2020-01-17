@@ -10,10 +10,14 @@ export default {
       en: 'Damage',
       fr: 'Damage',
       ru: 'Урон',
+      es: 'Daño',
       pt: 'Dano',
       tr: 'Hasar',
       hu: 'Sebzés',
-      zh: '傷害'
+      zh: '傷害',
+      de: 'Schaden',
+      pl: 'Obrażenia',
+      vi: 'Sát thương'
     }
   },
 
@@ -23,60 +27,84 @@ export default {
       en: 'Strength',
       fr: 'Force',
       ru: 'Сила',
+      es: 'Fuerza',
       pt: 'Força',
       tr: 'Dayankl.',
       hu: 'Erő',
-      zh: '力量'
+      zh: '力量',
+      de: 'Stärke',
+      pl: 'Siła',
+      vi: 'Sức mạnh'
     },
 
     {
       en: 'Stamina',
       fr: 'Endurance',
       ru: 'Стойкость',
+      es: 'Aguante',
       pt: 'Vigor',
       tr: 'Direnç',
       hu: 'Vitalitás',
-      zh: '耐力'
+      zh: '耐力',
+      pl: 'Stamina',
+      de: 'Ausdauer',
+      vi: 'Thể lực'
     },
 
     {
       en: 'Dexterity',
       fr: 'Dextérité',
       ru: 'Ловкость',
+      es: 'Destreza',
       pt: 'Destreza',
       tr: 'Çeviklik',
       hu: 'Fürgeség',
-      zh: '靈巧'
+      zh: '靈巧',
+      de: 'Geschick',
+      pl: 'Zręczność',
+      vi: 'Nhanh nhẹn'
     },
 
     {
       en: 'Intelligence',
       ru: 'Интеллект',
       fr: 'Intelligence',
+      es: 'Inteligencia',
       pt: 'Inteligência',
       tr: 'Zekâ',
       hu: 'Intelligencia',
-      zh: '智力'
+      zh: '智力',
+      de: 'Intelligenz',
+      pl: 'Inteligencja',
+      vi: 'Thông minh'
     },
 
     {
       en: 'Wisdom',
       fr: 'Sagesse',
       ru: 'Мудрость',
+      es: 'Sabidur.',
       pt: 'Sabdr.',
       tr: 'Bilgelik',
-      hu: 'Bölcslt.',
-      zh: '智慧'
+      hu: 'Bölcs.',
+      zh: '智慧',
+      de: 'Weisheit',
+      pl: 'Mądrość',
+      vi: 'Thông thái'
     },
 
     {
       en: 'Luck',
       fr: 'Chance',
       ru: 'Удача',
+      es: 'Suerte',
       pt: 'Sorte',
       tr: 'Şans',
       hu: 'Esély',
-      zh: '運氣'
+      zh: '運氣',
+      de: 'Glück',
+      pl: 'Szczęście',
+      vi: 'May mắn'
     },
 
     {
@@ -97,32 +125,44 @@ export default {
 
     {
       en: 'Min Dmg.',
-      ru: 'Мин Урн.',
+      ru: 'Мин. урон.',
+      es: 'Daño Min',
       pt: 'Dano Mín',
       fr: 'Min Dmg.',
       tr: 'Min Hasar',
-      hu: 'Leg. Sebz.',
-      zh: '最少傷害'
+      hu: 'Min. Sebz.',
+      zh: '最少傷害',
+      pl: 'Min. Obr.',
+      de: 'Min. Schaden',
+      vi: 'Sát thương nhỏ nhất'
     },
 
     {
       en: 'Max Dmg.',
-      ru: 'Макс Урн.',
+      ru: 'Макс. урон.',
+      es: 'Daño Max',
       pt: 'Dano Máx',
       fr: 'Max Dmg.',
       tr: 'Max Hasar',
       hu: 'Max. Sebz.',
-      zh: '最大傷害'
+      zh: '最大傷害',
+      pl: 'Max. Obr.',
+      de: 'Max. Schaden',
+      vi: 'Sát thương lớn nhất'
     },
 
     {
       en: 'Defense',
       fr: 'Défense',
       ru: 'Защита',
+      es: 'Defensa',
       pt: 'Defesa',
       tr: 'Defans',
       hu: 'Védelem',
-      zh: '防禦'
+      zh: '防禦',
+      de: 'Abwehr',
+      pl: 'Obrona',
+      vi: 'Phòng thủ'
     },
 
     {
@@ -132,118 +172,180 @@ export default {
       pt: 'Bloquе.',
       tr: 'Blok',
       hu: 'Blokk',
-      zh: '擋'
-
+      zh: '擋',
+      pl: 'Blok',
+      de: 'Blocken',
+      es: 'Bloqueo',
+      vi: 'Đỡ đòn'
     },
 
     {
       en: 'Critical',
-      ru: 'Крит. Шанс',
+      ru: 'Крит',
       fr: 'Critique',
+      es: 'Crítico',
       pt: 'Crítico',
       tr: 'Kritik',
       hu: 'Kritikus',
-      zh: '危急'
+      zh: '危急',
+      de: 'Kritisch',
+      pl: 'Krytyczne',
+      vi: 'Chí mạng'
     },
 
     {
       en: 'Move Spd.',
       fr: 'Vit. Mouv.',
       ru: 'Скорость',
+      es: 'Vel. Mov.',
       pt: 'Velocidade',
       hu: 'Mozgás',
-      zh: '移動速度'
+      zh: '移動速度',
+      pl: 'Prędkość ruchu',
+      vi: 'Tốc độ di chuyển',
+      de: 'Bewegungstempo'
     },
 
     {
       en: 'Haste',
-      ru: 'Быстр.',
+      ru: 'Ск.Умен',
+      es: 'Rapidez',
       pt: 'Rapidez',
-      fr: 'Célérité',
+      fr: 'Hâte',
       tr: 'Çabukluk',
       hu: 'Sietség',
-      zh: '匆忙'
+      zh: '匆忙',
+      de: 'Tempo',
+      pl: 'Szybkość',
+      vi: 'Mau lẹ'
     },
 
     {
       en: 'Attack Spd.',
       ru: 'Скорость Атк.',
       fr: 'Vit. Attq',
+      es: 'Vel. Ataque',
       pt: 'Rapidez Atq.',
       hu: 'Támadási Seb.',
-      zh: '攻擊速度'
+      zh: '攻擊速度',
+      pl: 'Szybkość ataku',
+      vi: 'Tốc độ đánh',
+      de: 'Angriffstempo'
     },
 
     {
       en: 'Item Find',
-      ru: 'Выпадение',
+      ru: 'Поиск пред.',
       fr: 'Trouvaille',
+      es: 'hallar item',
       pt: 'Enctr. Item',
       hu: 'Tárgylelés',
-      zh: '裝備查找'
+      zh: '裝備查找',
+      de: 'Item-Suche',
+      pl: 'Wyszukiwanie przedmiotu',
+      vi: 'Tỉ lệ tìm vật phẩm'
     },
 
     {
       en: 'Bag Slots',
-      ru: 'Слоты Сумки',
+      ru: 'Слоты сумки',
       pt: 'Espaço',
       fr: 'Espace Sac',
       hu: 'Hátizsák',
-      zh: '袋槽'
+      zh: '袋槽',
+      pl: 'Miejsce w ekw.',
+      de: 'Taschenplätze',
+      vi: 'Ô túi'
+      // es: 'Espacios de inventario'
     },
 
     {
       en: 'Fame',
+      de: 'Ruf',
       ru: 'Слава',
       fr: 'Gloire',
+      es: 'Fama',
       pt: 'Fama',
       hu: 'Hírnév',
-      zh: '聲譽'
+      zh: '聲譽',
+      pl: 'Sława',
+      vi: 'Danh vọng'
     },
 
     {
       en: 'Stat Points',
-      ru: 'Очки Статов',
+      ru: 'Очки Хар-ик',
       fr: 'Points Stat',
+      es: 'Puntos de stat',
       pt: 'Pontos de Stat',
       hu: 'Stat Pntk',
-      zh: '屬性點'
+      zh: '屬性點',
+      de: 'Stat-Punkte',
+      pl: 'Punkty Statystyk',
+      vi: 'Điểm tiềm năng'
     },
 
     {
       en: 'Skill Points',
-      ru: 'Очки Умений',
+      ru: 'Очки умений',
       fr: 'Points Comp.',
+      es: 'Puntos de Hab.',
       pt: 'Pontos de Hab.',
       hu: 'Képesség Pntk',
-      zh: '技能點'
+      zh: '技能點',
+      de: 'Skill-Punkte',
+      pl: 'Punkty Umiej.',
+      vi: 'Điểm kỹ năng'
     },
 
     {
       en: '% Increased Dmg.',
       fr: '% Dmg Améliorés',
-      ru: '% Увеличения Урона',
+      ru: '% Увеличения урона',
+      es: '% Daño Aumentado',
       pt: '% Dano Aumentado',
       hu: '% Megnövelt Sebz.',
-      zh: '%傷害增加'
+      zh: '%傷害增加',
+      de: '% erhöhten Schaden',
+      pl: '% Zwiększone obrażenia',
+      vi: '% Tăng sát thương'
     },
 
     {
       en: '% Increased Aggro Generation',
-      ru: '% Увеличения Агрессии',
+      ru: '% Увеличения агрессии',
       fr: '% Génération d\'aggro Améliorée',
+      es: '% Aumento de Aggro generado',
       pt: '% Aggro Gerado',
       hu: '% Megnövelt Aggro Képzés',
-      zh: '%增加挑衅'
+      zh: '%增加挑衅',
+      pl: '% Zwiększone generowanie aggro.',
+      de: '% erhöht Aggro Generierung', //better word for Aggro?
+      vi: '% Tăng hồi Aggro'
     },
 
     {
       en: '% Movement Spd. Reduction',
       fr: '% Réduction Vit. Mouv.',
-      ru: '% Cнижения Скор. Движения',
+      ru: '% Cнижения скор. движения',
+      es: '% Reducción de Vel. Mov.',
       pt: '% Redução de Velocidade',
       hu: '% Mozgási Seb. Csökkentés',
-      zh: '%移動速度降低'
+      zh: '%移動速度降低',
+      pl: '% Redukcja prędkości ruchu',
+      de: '% verminderte Laufgeschwindigkeit',
+      vi: '% Giảm tốc độ di chuyển'
+    },
+
+    {
+      en: 'Healing Reduction',
+      de: 'Heilungsreduktion',
+      hu: 'Gyógyításcsökkentés',
+      ru: 'Снижение восст. HP',
+      es: 'Reducción de cura',
+      fr: 'Réduction de soin',
+      pl: 'Ograniczenie leczenia',
+      vi: 'Giảm hồi máu'
     }
   ]
 }
