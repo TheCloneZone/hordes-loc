@@ -18,7 +18,9 @@ export default {
       hu: 'Válassz karaktert',
       pl: 'Wybierz Postać',
       bn: 'চরিত্র বাছাই করুন',
-      vi: 'Lựa chọn nhân vật'
+      vi: 'Lựa chọn nhân vật',
+      cs: 'Vyber postavu',
+      sr: 'Odaberi igrača'
     },
 
     create: {
@@ -37,13 +39,15 @@ export default {
       hu: 'Kattints karakter létrehozásához',
       pl: 'Klijnij aby stworzyć postać',
       bn: 'চরিত্র তৈরি করতে ক্লিক করুন',
-      vi: 'Nhấn để tạo nhân vật'
+      vi: 'Nhấn để tạo nhân vật',
+      cs: 'Klikni zde pro vytvoření postavy',
+      sr: 'Klikni da kreiraš igrača'
     },
 
     enterWorld: {
       en: 'Enter World',
       ru: 'Войти в мир',
-      fr: 'Entrer le Monde',
+      fr: 'Entrer dans le Monde',
       hi: 'प्रवेश करे',
       es: 'Entrar al Mundo',
       de: 'Welt betreten',
@@ -56,7 +60,9 @@ export default {
       hu: 'Belépés a világba',
       pl: 'Wejdź do świata',
       bn: 'প্রবেশ করুন',
-      vi: 'Tiến vào Thế giới'
+      vi: 'Tiến vào Thế giới',
+      cs: 'Vstoupit do světa',
+      sr: 'Uđi u svet'
     },
 
     emptySlot: {
@@ -75,7 +81,9 @@ export default {
       hu: 'Üres',
       pl: 'Pusty',
       bn: 'খালি',
-      vi: 'Trống'
+      vi: 'Trống',
+      cs: 'Prázdný slot',
+      sr: 'Prazno'
     },
 
     error: {
@@ -94,7 +102,9 @@ export default {
       hu: 'Hálózati Hiba',
       pl: 'Problem z siecią',
       bn: 'নেটওয়ার্কে সমস্যা',
-      vi: 'Lỗi kết nối mạng'
+      vi: 'Lỗi kết nối mạng',
+      cs: 'Network Error',
+      sr: 'Greška pri konekciji'
     }
   },
 
@@ -116,7 +126,9 @@ export default {
       hu: 'Karakter Létrehozás',
       pl: 'Tworzenie Postaci',
       bn: 'চরিত্র নির্মাণ',
-      vi: 'Tạo nhân vật'
+      vi: 'Tạo nhân vật',
+      cs: 'Vytváření postavy',
+      sr: 'Kreiranje igrača'
     },
 
     pressIcon: {
@@ -135,7 +147,9 @@ export default {
       hu: 'Kattints a címerre egy rövid leírásért.',
       pl: 'Kliknij ikonę aby wyświetlić krótki opis.',
       bn: 'সংক্ষিপ্ত বিবরণের জন্য ছবিতে ক্লিক করুন।',
-      vi: 'Nhấn biểu tượng để xem mô tả ngắn gọn'
+      vi: 'Nhấn biểu tượng để xem mô tả ngắn gọn.',
+      cs: 'Klikni na ikonu pro stručný popis.',
+      sr: 'Pritisni na ikonu za kratak opis.'
     },
 
     selectClass: {
@@ -154,7 +168,9 @@ export default {
       hu: 'Válassz egy kasztot',
       pl: 'Wybierz klasę',
       bn: 'শ্রেণী বাছাই করুন',
-      vi: 'Lựa chọn Lớp nhân vật'
+      vi: 'Lựa chọn Lớp nhân vật',
+      cs: 'Zvolit povolání',
+      sr: 'Odaberi klasu'
     },
 
     selectFaction: {
@@ -173,7 +189,9 @@ export default {
       hu: 'Válassz egy szövetséget',
       pl: 'Wybierz frakcję',
       bn: 'দল বাছাই করুন',
-      vi: 'Lựa chọn phe phái'
+      vi: 'Lựa chọn phe phái',
+      cs: 'Zvolit frakci',
+      sr: 'Odaberi fakciju'
     },
 
     enterName: {
@@ -192,7 +210,9 @@ export default {
       hu: 'Add meg a hősöd nevét',
       pl: 'Wprowadź imię',
       bn: 'নাম লিখুন',
-      vi: 'Nhập tên'
+      vi: 'Nhập tên',
+      cs: 'Zadej jméno',
+      sr: 'Unesi jedno ime'
     },
 
     nameReq: {
@@ -210,7 +230,9 @@ export default {
       hu: 'A nevedben betűk a-tól Z-ig, és számok 0-tól 9-ig, lehetnek csak, szünetek nélkül. 3 és 16 karakter között.',
       pl: 'Imię musi zawierać tylko litery a-Z oraz numery 0-9, bez spacji. Od 3 do 16 znaków.',
       bn: 'আপনার বাছাই করা নামে শুধু a-Z অক্ষর এবং 0-9 সংখ্যা ব্যবহার করা যাবে, কোনো স্পেস ছাড়া 3 থেকে 16  অক্ষরের মাঝে লিখতে হবে।',
-      vi: 'Tên của bạn chỉ chứ các ký tự từ a-z, và số từ 0-9, không bao gồm khoảng trắng. Độ dài từ 3 đến 16 kí tự.'
+      vi: 'Tên của bạn chỉ chứ các ký tự từ a-z, và số từ 0-9, không bao gồm khoảng trắng. Độ dài từ 3 đến 16 kí tự.',
+      cs: 'Tvoje jméno může obsahovat pouze znaky a-Z a číslice 0-9, bez meze. Jméno musí být v rozsahu 3 až 16 písmen.',
+      sr: 'Ime sme samo da ima slova od a do Z, i brojeve od 0 do 9, bez razmaka. Ime može sadržati između 3 i 16 karaktera.'
     }
   },
 
@@ -233,7 +255,9 @@ export default {
       hu: 'Törlés',
       pl: 'Usuń',
       bn: 'মুছে ফেলুন',
-      vi: 'Xóa'
+      vi: 'Xóa',
+      cs: 'Smazat',
+      sr: 'Izbrisati'
     },
 
     info: {
@@ -252,7 +276,9 @@ export default {
       hu: 'Add meg a karaktered nevét a törléshez. Ezek után már nem lehet visszaállítani.',
       pl: 'Aby usunąć, wpisz imię postaci. Przywrócenie postaci nie będzie możliwe.',
       bn: 'মুছে ফেলতে, চরিত্রের নামটি টাইপ করুন। আপনার মুছে ফেলা চরিত্রটি পুনরুদ্ধার করা সম্ভব না।',
-      vi: 'Để xóa, gõ tên nhân vật. Nhân vật của bạn không thể phục hồi.'
+      vi: 'Để xóa, gõ tên nhân vật. Nhân vật của bạn không thể phục hồi.',
+      cs: 'Pro smazaní napiš jméno tvé postavy. Tvoje postava již nemůže být obnovena.',
+      sr: 'Da izbrišeš igrača, unesi njegove ime. Igrač neće moći biti vraćen.'
     },
 
     placeholder: {
@@ -271,7 +297,9 @@ export default {
       hu: 'Biztos vagy benne?',
       pl: 'Na pewno?',
       bn: 'আপনি কি নিশ্চিত?',
-      vi: 'Bạn có chắc chứ?'
+      vi: 'Bạn có chắc chứ?',
+      cs: 'Jsi si jistý?',
+      sr: 'Da li si siguran?'
     }
   }
 }

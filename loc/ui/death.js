@@ -5,7 +5,7 @@ export default {
     hi: 'आप मर चुके हैं',
     es: 'Has muerto.',
     de: 'Du bist gestorben.',
-    fr: 'Vous êtes morts.',
+    fr: 'Vous êtes mort.',
     ko: '당신은 죽었습니다',
     tr: 'Öldün.',
     nl: 'Je bent gestorven.',
@@ -15,7 +15,8 @@ export default {
     hu: 'Meghaltál',
     pl: 'Zginąłeś',
     bn: 'আপনি মারা গেছেন',
-    vi: 'Bạn đã chết'
+    vi: 'Bạn đã chết',
+    sr: 'Umro si.'
   },
 
   deathmsg: {
@@ -34,7 +35,8 @@ export default {
     hu: 'Nyomd meg a gombot hogy felgyógyítsanak a legközelebbi Conjurernél',
     pl: 'Wciśnij przycisk aby zostać wskrzeszonym przy najbliższym Conjurer',
     bn: 'নিকটতম কনজিউরারে পুনরুত্থিত হতে বাটনে চাপুন',
-    vi: 'Nhấn nút để hồi sinh tại điểm gần nhất'
+    vi: 'Nhấn nút để hồi sinh tại điểm gần nhất',
+    sr: 'Pritisni dugme da se resurrectuješ kod najbližeg conjurer-a.'
   },
 
   // 'Resurrect' is used in many translations/languages.
@@ -44,7 +46,7 @@ export default {
     hi: 'अपने आप को जीवित करें',
     es: 'Resucitar',
     de: 'Wiederbeleben',
-    fr: 'Ressuscitez',
+    fr: 'Ressusciter',
     ko: '자신을 부활 시키십시오.',
     nl: 'Wederopstand',
     pt: 'Ressuscitar',
@@ -53,6 +55,7 @@ export default {
     hu: 'Feltámadás',
     pl: 'Respawn',
     bn: 'পুনর্জীবন',
-    vi: 'Hồi sinh'
+    vi: 'Hồi sinh',
+    sr: 'Respawn'
   }
 }

@@ -16,6 +16,9 @@ export default {
     hu: 'Szörnyeteg',
     pl: 'Potwór',
     bn: 'দানব',
-    vi: 'Quái vật'
+    vi: 'Quái vật',
+    cs: 'Příšera',
+    sr: 'Čudovište',
+    it: 'Mostro'
   }
 }
